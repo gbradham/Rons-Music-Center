@@ -41,7 +41,7 @@ a:hover {
 }
 
 .navbar li {
-  float: left;
+  float: right;
 }
 
 .navbar a {
@@ -54,4 +54,10 @@ a:hover {
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
 }
