@@ -68,10 +68,9 @@ a:hover {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #fff;
-  max-width: 33%;
 }
 
 img {
-  max-width: 33%;
+  max-width: 25%;
   height: auto;
 }
