@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffedae;
+  background-color: #ffe8d1;
   margin: 0;
   padding: 0;
 }
@@ -37,7 +37,7 @@ a:hover {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: transparent;
+  background-color: #007090;
 }
 
 .navbar li {
