@@ -76,8 +76,14 @@ a:hover {
   /* Include padding and border in the element's total width and height */
 }
 
-img {
+.product img {
   max-width: 100%;
-  /* Make sure the image fits within its container */
+  /* Ensure the image fits within its container */
   height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  /* Set a maximum height for the images */
+  width: auto;
+  /* Maintain aspect ratio */
 }
