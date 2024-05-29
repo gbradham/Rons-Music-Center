@@ -59,6 +59,8 @@ a:hover {
 .products {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  /* Allow wrapping if necessary */
   overflow: hidden;
 }
 
@@ -68,10 +70,14 @@ a:hover {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #fff;
-  max-width: 30%;
+  flex: 1 1 30%;
+  /* Allow flexibility with a basis of 30% */
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
 }
 
 img {
-  max-width: 300px;
+  max-width: 100%;
+  /* Make sure the image fits within its container */
   height: auto;
 }
