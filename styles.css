@@ -59,7 +59,6 @@ a:hover {
 .products {
   display: flex;
   flex-direction: row;
-  max-width: 33%;
   overflow: hidden;
 }
 
@@ -69,4 +68,5 @@ a:hover {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #fff;
+  max-width: 33%;
 }
