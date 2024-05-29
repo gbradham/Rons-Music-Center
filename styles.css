@@ -41,17 +41,20 @@ a:hover {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .navbar li {
-  display: inline-block;
-  margin-right: 10px;
+  float: left;
 }
 
 .navbar a {
-  color: #fff;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  padding: 5px;
 }
 
 .navbar a:hover {
