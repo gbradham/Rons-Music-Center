@@ -5,12 +5,6 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 h1 {
   font-size: 24px;
   color: #333;
@@ -60,8 +54,8 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* Allow wrapping if necessary */
   overflow: hidden;
+  justify-content: center;
 }
 
 .product {
@@ -71,16 +65,28 @@ a:hover {
   border-radius: 5px;
   background-color: #fff;
   flex: 1 1 200px;
-  /* Allow flexibility with a basis of 30% */
   box-sizing: border-box;
-  /* Include padding and border in the element's total width and height */
+  max-width: 300px;
 }
 
 .product img {
   display: block;
   margin: 0 auto;
   max-width: 200px;
-  /* Set a maximum height for the images */
   height: auto;
-  /* Maintain aspect ratio */
+}
+
+footer {
+  background-color: #007090;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+  color: #fff;
 }
