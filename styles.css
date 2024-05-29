@@ -77,13 +77,10 @@ a:hover {
 }
 
 .product img {
-  max-width: 100%;
-  /* Ensure the image fits within its container */
-  height: auto;
   display: block;
   margin: 0 auto;
-  max-height: 200px;
+  max-width: 200px;
   /* Set a maximum height for the images */
-  width: auto;
+  height: auto;
   /* Maintain aspect ratio */
 }
