@@ -1,8 +1,8 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffe8d1;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 h1 {
@@ -31,7 +31,8 @@ a:hover {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #007090;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
 }
 
 .navbar li {
@@ -39,15 +40,29 @@ a:hover {
 }
 
 .navbar a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   padding: 15px;
   display: block;
   margin-right: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+.navbar .phone-number {
+  color: rgb(6, 67, 117);
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .products {
@@ -58,12 +73,18 @@ a:hover {
   justify-content: center;
 }
 
+.products h3 {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .product {
   margin: 10px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: white;
   flex: 1 1 200px;
   box-sizing: border-box;
   max-width: 300px;
