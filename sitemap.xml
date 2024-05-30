@@ -4,9 +4,21 @@
         <loc>/acousticguitars.html</loc>
     </url>
     <url>
+        <loc>/amps.html</loc>
+    </url>
+    <url>
+        <loc>/bassguitars.html</loc>
+    </url>
+    <url>
         <loc>/electricguitars.html</loc>
     </url>
     <url>
         <loc>/</loc>
+    </url>
+    <url>
+        <loc>/microphones.html</loc>
+    </url>
+    <url>
+        <loc>/pianos.html</loc>
     </url>
 </urlset>
